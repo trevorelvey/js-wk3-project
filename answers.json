@@ -1,0 +1,10 @@
+{ "answers": [{
+  "author": "Trevor",
+  "text": "Answer Example Text"
+  }],
+  "questions": [{
+  "author": "Q Author",
+  "text": "Q Example Text",
+  "title": "Q Title"
+  }]
+}
