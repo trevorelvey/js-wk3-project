@@ -1,14 +1,15 @@
 <div class="container">
   <h3>{{question.title}}</h3><br>
   {{question.text}}<br>
-  <i>by {{question.author}}</i><br>
-  <button {{action 'delete' question}}>Delete</button>
+  <i>by {{question.author}}</i><br><br>
 
+  <h4>Answers:</h4>
   <ul>
-    {{#each model.answers as |answer|}}
-      {{answer-tile answer=answer destroyAnswer="destroyAnswer"}}
+    {{#each question.answers as |answer|}}
+      <li>
+        {{answer.text}}<br>
+        <i>Answered by {{answer.author}}</i>
+      </li>
     {{/each}}
-  </ul>
-
-  {{new-answer save2="save3"}}
+  </ul><br><br>
 </div>
