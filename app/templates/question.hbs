@@ -3,6 +3,10 @@
 {{new-answer question=model saveAnswer="saveAnswer"}}
 
 <br>
-<div class="container">
-  {{update-question question=model update="update"}}
-</div>
+{{update-question question=model update="update"}}
+
+<!-- {{#if model.question.inWatched}}
+  <p>In Watchlist</p>
+{{else}}
+  <button {{action 'addToWatched' model.question}}>Add to Watchlist</button>
+{{/if}} -->

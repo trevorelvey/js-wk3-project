@@ -1,0 +1,34 @@
+1. Timestamp moment.js
+2. Static Pages
+3. Helper to show recent questions
+4. User Profiles (use computed to show number of questions)
+  -add user page
+  -show answers and questions
+5. Delete Functionality
+
+
+For instance, you could use a service to compile a list of 'bookmarked' or 'favorite' questions. You could allow users to vote for best answers and sort answers by vote count using a computed property. A helper could format timestamps, or alter display depending on circumstances (perhaps questions with no answers are indicated with a particular color, or special icon.) Also, consider including an admin-style page to manage content. The possibilities are limitless!
+
+-The project contains at least one functioning computed property.
+-A service has been implemented successfully.
+-At least one custom helper is being used to format data.
+
+
+-You are able to discuss the flow of your code and the concepts behind it with an instructor using correct terminology.
+
+Perry's suggestions:
+Please Add in a few static routes, about page, clear out answer fields after answering. Some suggestions for refactoring: Use moment.js to timestamp questions and answers, have delete functionality for questions and answers. You could also create an "admin area" with a real/fake login and only show "delete" buttons to authorized users. You could group questions into categories: sports, tech, fashion, philosophy, etc. It would also be cool to see all posts by a certain user, or all replies by a certain user. You could do something with counting answers and displaying counts, or moving unanswered questions to the top of the list with a custom filter....
+
+
+
+
+
+
+Further Exploration:
+-If applicable, use a computed property to calculate an average rating based on all user reviews, or another metric.
+-Include a Google Map to display the location of individual restaurants.
+-Include a central Google Map that displays all restaurants.
+-If it fits the 'flow' of your application, use a nested route and/or Firebase query.
+-Include search functionality.
+-Allow users to sort by various categories or attributes.
+-Allow users to add additional feedback where applicable (commenting on other users' ratings or comments, upvoting/downvoting misc. items, etc.)

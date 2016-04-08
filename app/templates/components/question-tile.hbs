@@ -2,4 +2,10 @@
   {{question.title}}<br>
   <i>Asked by {{question.author}}</i><br>
   {{/link-to}}
+
+  {{#if model.question.inWatched}}
+    <p>Added to Watchlist</p>
+  {{else}}
+    <button class="btn btn-xs" {{action 'addToWatched' question}}>Watch Question</button>
+  {{/if}}
 </li>

@@ -13,10 +13,10 @@
             {{input value=text id="text"}}
           </div>
 
-          <button {{action 'saveAnswer'}}>Save</button>
+          <button class="btn" {{action 'saveAnswer'}}>Save</button>
         </form>
       </div>
   {{else}}
-    <button {{action 'answerFormShow'}}>New Answer</button>
+    <button class="btn" {{action 'answerFormShow'}}>New Answer</button>
   {{/if}}
 </div>

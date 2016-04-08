@@ -1,0 +1,17 @@
+body {
+  background-color: #b4b4b4;
+  color: #00881e;
+}
+
+.btn {
+  background: none;
+  border: 2px solid #00881e;
+}
+
+.navbar {
+  border-radius: 0px;
+}
+
+.well {
+  border-radius: 0px;
+}
