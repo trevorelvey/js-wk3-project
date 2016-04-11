@@ -1,7 +1,7 @@
 <ul>
 {{#each watchedQuestions.questions as |question|}}
-  <li>{{question.title}}
+  <li>{{question.title}}<br>
     <button class="btn btn-xs" {{action 'removeFromWatched' question}}>Remove from Watchlist</button>
-  </li>
+  </li><br>
 {{/each}}
 </ul>

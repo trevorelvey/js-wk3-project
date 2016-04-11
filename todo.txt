@@ -6,6 +6,8 @@
   -show answers and questions
 5. Delete Functionality
 
+Where do I need to put the added code?
+
 
 For instance, you could use a service to compile a list of 'bookmarked' or 'favorite' questions. You could allow users to vote for best answers and sort answers by vote count using a computed property. A helper could format timestamps, or alter display depending on circumstances (perhaps questions with no answers are indicated with a particular color, or special icon.) Also, consider including an admin-style page to manage content. The possibilities are limitless!
 

@@ -1,15 +1,13 @@
-<div class="container">
-  <h3>{{question.title}}</h3><br>
-  {{question.text}}<br>
-  <i>by {{question.author}}</i><br><br>
+<h3>{{question.title}}</h3><br>
+{{question.text}}<br>
+<i>by {{question.author}}</i><br><br>
 
-  <h4>Answers:</h4>
-  <ul>
-    {{#each question.answers as |answer|}}
-      <li>
-        {{answer.text}}<br>
-        <i>Answered by {{answer.author}}</i>
-      </li>
-    {{/each}}
-  </ul><br><br>
-</div>
+<h4>Answers:</h4>
+<ul>
+  {{#each question.answers as |answer|}}
+    <li>
+      {{answer.text}}<br>
+      <i>Answered by {{answer.author}}</i>
+    </li>
+  {{/each}}
+</ul><br><br>
